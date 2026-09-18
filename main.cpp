@@ -1,7 +1,7 @@
 // Автор: Мишустин В., группа ПИ-51, вариант 20.
 #define _CRT_SECURE_NO_WARNINGS
 
-
+//------
 #include <stdio.h>
 #include <math.h>
 #include <locale.h>
