@@ -6,7 +6,8 @@
 #include <locale.h>
 
 // Объём пирамиды: V = a^2 * h / 3
-double pyramidV(double a, double h)
+double pyramidV(double a, double h)//функция
+
 {
     return a * a * h / 3.0;
 }
@@ -58,7 +59,7 @@ int main()
                 printf("Ошибка: a и h должны быть положительными.\n");
                 break;
             }
-            printf("Объём = %.4f\n", pyramidV(a, h));   // 
+            printf("Объём = %.4fм3\n", pyramidV(a, h));   // 
             break;
 
         case 2:
@@ -69,7 +70,7 @@ int main()
                 printf("Ошибка: a и h должны быть положительными.\n");
                 break;
             }
-            printf("Апофема = %.4f\n", pyramidA(a, h));
+            printf("Апофема = %.4fед \n", pyramidA(a, h));
             break;
 
 	case 3:
@@ -80,7 +81,7 @@ int main()
                 printf("Ошибка: a и h должны быть положительными.\n");
                 break;
             }
-            printf("Площадь поверхности = %.4f\n", pyramidSurface(a, h));
+            printf("Площадь поверхности = %.4fм2 \n", pyramidSurface(a, h));
             break;
 
         case 0:
